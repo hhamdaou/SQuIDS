@@ -44,8 +44,8 @@ A configure script, configure, is provided in the root directory.
 
 The path for the GSL libraries can be specified running:
 
-#	./configure --with-gsl-incdir=DIR --with-gsl-libdir=DIR
-./configure --prefix=$INSTALL_PATH --with-gsl-incdir=$SROOT/include --with-gsl-libdir=$SROOT/lib
+	./configure --with-gsl-incdir=DIR --with-gsl-libdir=DIR
+        ./configure --prefix=$INSTALL_PATH --with-gsl-incdir=$SROOT/include --with-gsl-libdir=$SROOT/lib
 if not specified pkg-config will be used to try to find
 the your GSL installation. After successful configuration run:
 
